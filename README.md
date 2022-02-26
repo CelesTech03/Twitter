@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://user-images.githubusercontent.com/57969388/155819390-643da003-ada5-4c39-b571-8f9e92ae6619.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+<img src='https://user-images.githubusercontent.com/57969388/155820802-681b2643-5778-49d5-9c98-894f2b986a4b.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />

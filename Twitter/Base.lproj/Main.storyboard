@@ -178,6 +178,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-Er-LcL">
+                                <rect key="frame" x="327" y="195" width="67" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3P7-gF-zhU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -202,12 +209,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="remainingCharsLabel" destination="h2Y-Er-LcL" id="Dah-Z2-OWe"/>
                         <outlet property="tweetTextView" destination="iPd-h8-qwD" id="RBv-VO-9uL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5SS-5g-n2X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1933" y="543"/>
+            <point key="canvasLocation" x="1931.8840579710147" y="541.74107142857144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lrR-iV-Bul">
